@@ -26,7 +26,7 @@ package body Vehicle is
    -- Set_Model --
    ---------------
 
-   procedure Set_Model (In_Model : STring) is
+   procedure Set_Model (In_Model : String) is
    begin
       Model := Unbounded.To_Unbounded_String(In_Model);
    end Set_Model;
